@@ -2,53 +2,53 @@
 import "swiper/css";
 import "swiper/css/pagination";
 
-type Testimonial = {
-  name: string;
-  title: string;
-  company: string;
-  content: string;
-  image: string;
-  stars?: number;
-};
+// type Testimonial = {
+//   name: string;
+//   title: string;
+//   company: string;
+//   content: string;
+//   image: string;
+//   stars?: number;
+// };
 
-const testimonials: Testimonial[] = [
-  {
-    name: "MIHIR SHAH",
-    title: "FOUNDER",
-    company: "NOTUS COMPOSITES FZC",
-    image: "/images/notus.png",
-    content:
-      "We were immediately attracted to establish our manufacturing facility in RAKEZ when we found out that it offers ready-made facilities for affordable rates, which is a must for any startup company. Apart from that, the Al Hamra Industrial Zone is very accessible from Dubai and the rest of the emirates.",
-    stars: 5,
-  },
-  {
-    name: "MIHIR SHAH",
-    title: "FOUNDER",
-    company: "NOTUS COMPOSITES FZC",
-    image: "/images/notus.png",
-    content:
-      "We were immediately attracted to establish our manufacturing facility in RAKEZ when we found out that it offers ready-made facilities for affordable rates, which is a must for any startup company. Apart from that, the Al Hamra Industrial Zone is very accessible from Dubai and the rest of the emirates.",
-    stars: 5,
-  },
-  {
-    name: "MIHIR SHAH",
-    title: "FOUNDER",
-    company: "NOTUS COMPOSITES FZC",
-    image: "/images/notus.png",
-    content:
-      "We were immediately attracted to establish our manufacturing facility in RAKEZ when we found out that it offers ready-made facilities for affordable rates, which is a must for any startup company. Apart from that, the Al Hamra Industrial Zone is very accessible from Dubai and the rest of the emirates.",
-    stars: 5,
-  },
-  {
-    name: "MIHIR SHAH",
-    title: "FOUNDER",
-    company: "NOTUS COMPOSITES FZC",
-    image: "/images/notus.png",
-    content:
-      "We were immediately attracted to establish our manufacturing facility in RAKEZ when we found out that it offers ready-made facilities for affordable rates, which is a must for any startup company. Apart from that, the Al Hamra Industrial Zone is very accessible from Dubai and the rest of the emirates.",
-    stars: 5,
-  },
-];
+// const testimonials: Testimonial[] = [
+//   {
+//     name: "MIHIR SHAH",
+//     title: "FOUNDER",
+//     company: "NOTUS COMPOSITES FZC",
+//     image: "/images/notus.png",
+//     content:
+//       "We were immediately attracted to establish our manufacturing facility in RAKEZ when we found out that it offers ready-made facilities for affordable rates, which is a must for any startup company. Apart from that, the Al Hamra Industrial Zone is very accessible from Dubai and the rest of the emirates.",
+//     stars: 5,
+//   },
+//   {
+//     name: "MIHIR SHAH",
+//     title: "FOUNDER",
+//     company: "NOTUS COMPOSITES FZC",
+//     image: "/images/notus.png",
+//     content:
+//       "We were immediately attracted to establish our manufacturing facility in RAKEZ when we found out that it offers ready-made facilities for affordable rates, which is a must for any startup company. Apart from that, the Al Hamra Industrial Zone is very accessible from Dubai and the rest of the emirates.",
+//     stars: 5,
+//   },
+//   {
+//     name: "MIHIR SHAH",
+//     title: "FOUNDER",
+//     company: "NOTUS COMPOSITES FZC",
+//     image: "/images/notus.png",
+//     content:
+//       "We were immediately attracted to establish our manufacturing facility in RAKEZ when we found out that it offers ready-made facilities for affordable rates, which is a must for any startup company. Apart from that, the Al Hamra Industrial Zone is very accessible from Dubai and the rest of the emirates.",
+//     stars: 5,
+//   },
+//   {
+//     name: "MIHIR SHAH",
+//     title: "FOUNDER",
+//     company: "NOTUS COMPOSITES FZC",
+//     image: "/images/notus.png",
+//     content:
+//       "We were immediately attracted to establish our manufacturing facility in RAKEZ when we found out that it offers ready-made facilities for affordable rates, which is a must for any startup company. Apart from that, the Al Hamra Industrial Zone is very accessible from Dubai and the rest of the emirates.",
+//     stars: 5,
+//   },
+// ];
 
 export default function TestimonialsSlider() {
   return (

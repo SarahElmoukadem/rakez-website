@@ -1,7 +1,6 @@
 
 "use client";
 
-import VerticalAccordion from "@/components/AccordionSlider";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import clsx from "clsx";
@@ -26,7 +25,7 @@ const slides = [
 
 
 export default function AboutUsSection() {
-  const [view, setView] = useState<"hero" | "accordion">("hero");
+//   const [view, setView] = useState<"hero" | "accordion">("hero");
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
@@ -73,10 +72,12 @@ export default function AboutUsSection() {
       {/* {view === "hero" ? ( */}
         <section className="relative h-screen w-full overflow-hidden text-white" >
           <div className="absolute inset-0 transition-all duration-1000">
-            <img
+        
+             <Image
               src={slides[current].bg}
               alt="Background"
               className="w-full h-full object-cover transition-opacity duration-1000"
+              fill
             />
             <div className="absolute inset-0 bg-gradient-to-b from-white via-transparent to-white opacity-80" />
           </div>

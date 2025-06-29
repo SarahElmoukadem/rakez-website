@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
@@ -5,10 +6,11 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white pt-12 pb-6 px-6 md:px-16">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-8">
         <div>
-          <img
+          <Image
             src="/images/logo.svg"
             alt="RAKEZ Logo"
             className="h-10 mb-4"
+            fill
           />
           <p className="text-sm text-gray-400">
             RAKEZ is your gateway to business in the UAE — offering
@@ -50,7 +52,6 @@ const Footer = () => {
           </ul>
         </div>
 
-    
         <div>
           <h4 className="text-white font-semibold mb-3">Contact Us</h4>
           <ul className="text-sm text-gray-300 space-y-2">
@@ -65,15 +66,9 @@ const Footer = () => {
       <div className="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
         <p>© {new Date().getFullYear()} RAKEZ. All rights reserved.</p>
         <div className="flex gap-4">
-          <a href="#">
-            Facebook
-          </a>
-          <a href="#">
-            X
-          </a>
-          <a href="#">
-            LinkedIn
-          </a>
+          <a href="#">Facebook</a>
+          <a href="#">X</a>
+          <a href="#">LinkedIn</a>
         </div>
       </div>
     </footer>

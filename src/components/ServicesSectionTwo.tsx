@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 const ServicesSectionTwo = () => {
   return (
     <div>
@@ -24,10 +26,14 @@ const ServicesSectionTwo = () => {
           </div>
 
           <div className="rounded-xl overflow-hidden">
-            <img
+            <Image
               src="/images/businessman-pointing-graphs-symbols.jpg"
               alt="Services visual 1"
+              width={800}
+              height={400}
               className="w-full h-full object-cover md:h-[300px]"
+              data-aos="fade-up"
+              data-aos-duration="1200"
             />
           </div>
 
@@ -68,12 +74,21 @@ const ServicesSectionTwo = () => {
           </div>
 
           <div className="col-span-2 rounded-xl overflow-hidden relative">
-            <img
+       
+             <Image
               src="/images/businessman-pointing-graphs-symbols.jpg"
-              alt="Services visual 2"
-              className="w-full object-cover  md:h-[300px]"
+              alt="Services visual 1"
+              width={800}
+              height={400}
+              className="w-full h-full object-cover md:h-[300px]"
+              data-aos="fade-up"
+              data-aos-duration="1200"
             />
-            <a href="#" className="!absolute top-1/2 left-0 right-0 translate-y-[-50%] mx-auto main-btn">
+
+            <a
+              href="#"
+              className="!absolute top-1/2 left-0 right-0 translate-y-[-50%] mx-auto main-btn"
+            >
               Learn More
             </a>
           </div>
