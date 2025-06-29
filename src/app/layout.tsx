@@ -7,6 +7,9 @@ import AOSWrapper from "@/components/AOSWrapper";
 export const metadata: Metadata = {
   title: "RAKEZ",
   description: "",
+   icons: {
+    icon: "/favicon.svg", 
+  },
 };
 
 export default function RootLayout({
