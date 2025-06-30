@@ -13,8 +13,14 @@ const Footer = () => {
             height={40}
             className="h-auto w-auto max-h-10 object-contain mb-5"
             priority
+            data-aos="fade-up"
+            data-aos-duration="800"
           />
-          <p className="text-sm text-gray-400">
+          <p
+            className="text-sm text-gray-400"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
             RAKEZ is your gateway to business in the UAE — offering
             cost-effective, tailored setup solutions with full support.
           </p>
@@ -22,21 +28,27 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div>
-          <h4 className="text-white font-semibold mb-3">Quick Links</h4>
+          <h4
+            className="text-white font-semibold mb-3"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            Quick Links
+          </h4>
           <ul className="space-y-2 text-sm text-gray-300">
-            <li>
+            <li data-aos="fade-up" data-aos-duration="800">
               <a href="#">Start Your Journey</a>
             </li>
-            <li>
+            <li data-aos="fade-up" data-aos-duration="800">
               <a href="#">Services</a>
             </li>
-            <li>
+            <li data-aos="fade-up" data-aos-duration="800">
               <a href="#">Offers</a>
             </li>
-            <li>
+            <li data-aos="fade-up" data-aos-duration="800">
               <a href="#">Why RAKEZ</a>
             </li>
-            <li>
+            <li data-aos="fade-up" data-aos-duration="800">
               <a href="#">Contact</a>
             </li>
           </ul>
@@ -44,33 +56,72 @@ const Footer = () => {
 
         {/* Services */}
         <div>
-          <h4 className="text-white font-semibold mb-3">Business Setup</h4>
+          <h4
+            className="text-white font-semibold mb-3"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            Business Setup
+          </h4>
           <ul className="space-y-2 text-sm text-gray-300">
-            <li>Company Registration</li>
-            <li>Licensing</li>
-            <li>Flexi Desks & Offices</li>
-            <li>Warehouses</li>
-            <li>Visa Services</li>
+            <li data-aos="fade-up" data-aos-duration="800">
+              Company Registration
+            </li>
+            <li data-aos="fade-up" data-aos-duration="800">
+              Licensing
+            </li>
+            <li data-aos="fade-up" data-aos-duration="800">
+              Flexi Desks & Offices
+            </li>
+            <li data-aos="fade-up" data-aos-duration="800">
+              Warehouses
+            </li>
+            <li data-aos="fade-up" data-aos-duration="800">
+              Visa Services
+            </li>
           </ul>
         </div>
 
         <div>
-          <h4 className="text-white font-semibold mb-3">Contact Us</h4>
+          <h4
+            className="text-white font-semibold mb-3"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            Contact Us
+          </h4>
           <ul className="text-sm text-gray-300 space-y-2">
-            <li> Ras Al Khaimah, UAE</li>
-            <li> +971 7 204 1111</li>
-            <li> info@rakez.com</li>
+            <li data-aos="fade-up" data-aos-duration="800">
+              {" "}
+              Ras Al Khaimah, UAE
+            </li>
+            <li data-aos="fade-up" data-aos-duration="800">
+              {" "}
+              +971 7 204 1111
+            </li>
+            <li data-aos="fade-up" data-aos-duration="800">
+              {" "}
+              info@rakez.com
+            </li>
           </ul>
         </div>
       </div>
 
       {/* sub-footer */}
       <div className="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
-        <p>© {new Date().getFullYear()} RAKEZ. All rights reserved.</p>
+        <p data-aos="fade-up" data-aos-duration="800">
+          © {new Date().getFullYear()} RAKEZ. All rights reserved.
+        </p>
         <div className="flex gap-4">
-          <a href="#">Facebook</a>
-          <a href="#">X</a>
-          <a href="#">LinkedIn</a>
+          <a href="#" data-aos="fade-up" data-aos-duration="800">
+            Facebook
+          </a>
+          <a href="#" data-aos="fade-up" data-aos-duration="800">
+            X
+          </a>
+          <a href="#" data-aos="fade-up" data-aos-duration="800">
+            LinkedIn
+          </a>
         </div>
       </div>
     </footer>

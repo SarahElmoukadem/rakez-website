@@ -55,7 +55,7 @@ export default function PartnersSlider() {
         Partners
       </h4>
       <h2
-        className="text-3xl md:text-4xl font-bold my-2"
+        className="text-3xl md:text-4xl font-bold my-2 custom-greens"
         data-aos="fade-up"
         data-aos-duration="1500"
       >

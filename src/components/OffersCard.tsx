@@ -24,7 +24,7 @@ export default function OffersSection() {
           Offers
         </h4>
         <h2
-          className="text-3xl md:text-4xl font-bold mt-2 mb-4"
+          className="text-3xl md:text-4xl font-bold mt-2 mb-4 custom-green"
           data-aos="fade-up"
           data-aos-duration="1000"
         >

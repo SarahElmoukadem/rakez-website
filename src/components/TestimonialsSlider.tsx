@@ -54,7 +54,7 @@ export default function TestimonialsSlider() {
   return (
     <section className="py-20 text-center">
       <h4 className="text-xl font-medium" data-aos="fade-up"  data-aos-duration="1200">Testimonials</h4>
-      <h2 className="text-3xl md:text-4xl font-bold my-2" data-aos="fade-up"  data-aos-duration="1200">
+      <h2 className="text-3xl md:text-4xl font-bold my-2 custom-green" data-aos="fade-up"  data-aos-duration="1200">
         Trusted by Businesses
       </h2>
       <p className=" max-w-2xl mx-auto mb-12" data-aos="fade-up"  data-aos-duration="1200">

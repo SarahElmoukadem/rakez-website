@@ -19,7 +19,7 @@ export default function LaunchPartnerSection() {
 
       <div className="relative z-20 text-center max-w-3xl mx-auto">
         <h2
-          className="text-3xl md:text-4xl font-bold mb-4"
+          className="text-3xl md:text-4xl font-bold mb-4 custom-green"
           data-aos="fade-up"
           data-aos-duration="800"
         >

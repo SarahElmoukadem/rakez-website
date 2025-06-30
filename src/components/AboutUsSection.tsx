@@ -95,7 +95,7 @@ export default function AboutUsSection() {
 
           <div className="absolute top-16 w-full text-center z-30 px-4 text-black">
             <h4 className="text-lg">Why RAKEZ</h4>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2"  data-aos="fade-up">
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 custom-green"  data-aos="fade-up">
               More Than a Free Zone
             </h2>
             <p className="mt-2"  data-aos="fade-up">
@@ -125,7 +125,7 @@ export default function AboutUsSection() {
                   current === index ? "bg-white" : "bg-transparent"
                 )}
                 aria-label={`Go to slide ${index + 1}`}
-                 data-aos="fade-up"
+             
               />
             ))}
           </div>
