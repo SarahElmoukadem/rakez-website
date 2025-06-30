@@ -7,10 +7,12 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-8">
         <div>
           <Image
-            src="/images/logo.svg"
+            src="/images/white-logo.svg"
             alt="RAKEZ Logo"
-            className="h-10 mb-4"
-            fill
+            width={200}
+            height={40}
+            className="h-auto w-auto max-h-10 object-contain mb-5"
+            priority
           />
           <p className="text-sm text-gray-400">
             RAKEZ is your gateway to business in the UAE — offering
