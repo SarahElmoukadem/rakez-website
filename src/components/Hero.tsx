@@ -23,7 +23,7 @@ export default function HeroSection() {
           <p className="text-lg md:text-xl mb-8"  data-aos="fade-up"  data-aos-duration="1000">
             Explore RAKEZ for Seamless Setup, Custom Solutions, and Ongoing Support in the UAE
           </p>
-          <a href="a" className="main-btn"  data-aos="fade-up"  data-aos-duration="1200">
+          <a href="#" className="main-btn"  data-aos="fade-up"  data-aos-duration="1200">
             <span>
             Get Started
             </span>
